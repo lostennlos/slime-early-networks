@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "v4 selected-frame import",
+    "manual 48-step import",
+    "old 800-step v3 input regenerates an early 60-step network",
+    "invalid bounds and unknown models do not replace the current data",
+    "raw terrain input",
+    "imported geometry is recomputed rather than trusted"
+  ]
+}

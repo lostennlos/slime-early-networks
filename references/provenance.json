@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-10",
+  "model": "slime-early-networks-v4",
+  "blueprint": "User-approved P1: v3 seed42, global layout, step60",
+  "baseModule": "dist/slime-v3.js",
+  "baseSha256": "bd4138fd7b1304a3c821c593e6e52bd352609f96b102e799b113267df6654c98",
+  "referenceFeatures": {
+    "alternativeDensity": 1.0434782608695652,
+    "coverage": 0.15700755930141627,
+    "width": 3,
+    "spread": 7
+  },
+  "originalParticleKernelModified": false,
+  "changes": [
+    "early candidate selection",
+    "terrain-aware connectivity targets",
+    "reference-guided morphological preference",
+    "explicitly retained output"
+  ],
+  "limitations": [
+    "preference-driven morphology score, not a shortest-path objective or biological optimum",
+    "two resource layouts on one frozen terrain",
+    "no player study"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-10",
+  "passed": true,
+  "browserChecks": [
+    "standalone HTML defaults to retained step60",
+    "48-step candidate selection and return to recommendation",
+    "seed7 / A selects step66 and seed7 / B selects step54",
+    "Chinese / English switch",
+    "road, skeleton and field views",
+    "invalid early window rejected without changing the active layout",
+    "actual canvas PNG export",
+    "manual step48 JSON export and independent replay verification"
+  ],
+  "nativeFilePickerImportTested": false,
+  "note": "The actual import adapter is covered by tests/import.test.cjs with UI callbacks stubbed. Native file-dialog automation was not repeated after prolonged download-tool waits."
+}

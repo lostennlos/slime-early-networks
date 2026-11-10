@@ -1,0 +1,58 @@
+[
+  {
+    "file": "dist/app.js",
+    "sha256": "edd463c12f7a9216fc8c904639fb2391e36328315c908302c285543d34c6d187"
+  },
+  {
+    "file": "dist/context.js",
+    "sha256": "bfa9ce3c44516d846a08bd9c1010f746bb4102c4663a07a7a7bb81e498e6c114"
+  },
+  {
+    "file": "dist/early.js",
+    "sha256": "d18b41174c698767201a5d066e42962a8b12caf8724ea22559fc0be853cc5f70"
+  },
+  {
+    "file": "dist/index.html",
+    "sha256": "2e7d863d5e7d4f3579ccd1a4e1fb44b7559036647fd9a632b8f90bc8f645a07c"
+  },
+  {
+    "file": "dist/LICENSE-upstream.txt",
+    "sha256": "29f39f7f41c687dbf17dc690a52d9bb60ac930b9a623a58204d5a4165cfa136f"
+  },
+  {
+    "file": "dist/reference.js",
+    "sha256": "2f56fda2e5a0570981ed26fbcde83ba979cae21308f05ea58f841778852aea5b"
+  },
+  {
+    "file": "dist/slime-v3.js",
+    "sha256": "bd4138fd7b1304a3c821c593e6e52bd352609f96b102e799b113267df6654c98"
+  },
+  {
+    "file": "dist/style.css",
+    "sha256": "4eea5196fb6cb34334726b264ac05da01c0f0eeef8bda6a76a0cc0db982eaf30"
+  },
+  {
+    "file": "tests/early.test.cjs",
+    "sha256": "720d14b0ec337300c13857a3f4487ddce4605c8b1a9054fafc5f512d92cefd3f"
+  },
+  {
+    "file": "tests/import.test.cjs",
+    "sha256": "5230c58078f92521ea74c820623dac950254ea0c62c4bcf1be2eb8aabdea8d15"
+  },
+  {
+    "file": "references/P1-用户蓝本.png",
+    "sha256": "dd991cc421324358f208219ea94cc6d1549fe578e0b523077624107897996dc6"
+  },
+  {
+    "file": "references/provenance.json",
+    "sha256": "caf59949195e911681fe3b1cf76202c3ddfdd340ef30703daee0358faac82420"
+  },
+  {
+    "file": "README.md",
+    "sha256": "38b07d33d94c27df4e798d44e6699ed9fa457d9a25f213cd5612c05689831a3e"
+  },
+  {
+    "file": "build.cjs",
+    "sha256": "2e57ed64233a0759cb5381a7db3f6e0bafe565b67001b90c550979b7fcbe777a"
+  }
+]

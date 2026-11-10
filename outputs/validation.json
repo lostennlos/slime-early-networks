@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-10",
+  "model": "slime-early-networks-v4",
+  "passed": true,
+  "checks": [
+    "eight fixed-context runs preserve 23/23 resources, rich alternatives and varied widths",
+    "retained networks remain bit-identical after 1000 additional step requests",
+    "all eight JSON replays restore selected topology and fields",
+    "output edges existed at capture time; obstacles, weak bridges and resource partitions remain protected",
+    "default result exactly matches the approved P1 network at step60",
+    "selection uses early steps and shape, not a percentage of the total duration",
+    "manual candidate selection and replay preserve the chosen earlier snapshot",
+    "permanent walls yield separate reachable groups without fabricated global connectivity",
+    "blocked resource locations are reported as incomplete",
+    "manual early stop, invalid windows, duplicate IDs and invalid replay bounds handled",
+    "reference markers and extra display extraction do not change movement",
+    "different seeds generate different real road graphs rather than copying the reference",
+    "v3 particle kernel preserved byte-for-byte"
+  ],
+  "runs": [
+    {
+      "seed": 42,
+      "variant": 0,
+      "exploredSteps": 60,
+      "selectedStep": 60,
+      "resourceGroups": 1,
+      "connectedResources": 23,
+      "alternatives": 24,
+      "area": 5421,
+      "widths": {
+        "unit": "grid cells",
+        "min": 1,
+        "p10": 1,
+        "median": 3,
+        "p90": 8,
+        "max": 26,
+        "mean": 4.273162939297125
+      },
+      "score": 0
+    },
+    {
+      "seed": 42,
+      "variant": 1,
+      "exploredSteps": 120,
+      "selectedStep": 66,
+      "resourceGroups": 1,
+      "connectedResources": 23,
+      "alternatives": 24,
+      "area": 5536,
+      "widths": {
+        "unit": "grid cells",
+        "min": 1,
+        "p10": 1,
+        "median": 3,
+        "p90": 9,
+        "max": 26,
+        "mean": 4.267155578837087
+      },
+      "score": 0.016612973357577703
+    },
+    {
+      "seed": 7,
+      "variant": 0,
+      "exploredSteps": 120,
+      "selectedStep": 66,
+      "resourceGroups": 1,
+      "connectedResources": 23,
+      "alternatives": 23,
+      "area": 5316,
+      "widths": {
+        "unit": "grid cells",
+        "min": 1,
+        "p10": 1,
+        "median": 3,
+        "p90": 10,
+        "max": 30,
+        "mean": 4.735665137614679
+      },
+      "score": 0.044127994307850374
+    },
+    {
+      "seed": 7,
+      "variant": 1,
+      "exploredSteps": 120,
+      "selectedStep": 54,
+      "resourceGroups": 1,
+      "connectedResources": 23,
+      "alternatives": 24,
+      "area": 5103,
+      "widths": {
+        "unit": "grid cells",
+        "min": 1,
+        "p10": 1,
+        "median": 3,
+        "p90": 10,
+        "max": 26,
+        "mean": 4.35376827896513
+      },
+      "score": 0.033117571876564666
+    },
+    {
+      "seed": 99,
+      "variant": 0,
+      "exploredSteps": 120,
+      "selectedStep": 60,
+      "resourceGroups": 1,
+      "connectedResources": 23,
+      "alternatives": 24,
+      "area": 5317,
+      "widths": {
+        "unit": "grid cells",
+        "min": 1,
+        "p10": 1,
+        "median": 3,
+        "p90": 9,
+        "max": 32,
+        "mean": 4.098621420996818
+      },
+      "score": 0.011939020212401478
+    },
+    {
+      "seed": 99,
+      "variant": 1,
+      "exploredSteps": 120,
+      "selectedStep": 72,
+      "resourceGroups": 1,
+      "connectedResources": 23,
+      "alternatives": 24,
+      "area": 5454,
+      "widths": {
+        "unit": "grid cells",
+        "min": 1,
+        "p10": 1,
+        "median": 3,
+        "p90": 9,
+        "max": 31,
+        "mean": 4.340909090909091
+      },
+      "score": 0.016998049911719017
+    },
+    {
+      "seed": 1337,
+      "variant": 0,
+      "exploredSteps": 120,
+      "selectedStep": 60,
+      "resourceGroups": 1,
+      "connectedResources": 23,
+      "alternatives": 25,
+      "area": 5521,
+      "widths": {
+        "unit": "grid cells",
+        "min": 1,
+        "p10": 1,
+        "median": 3,
+        "p90": 8,
+        "max": 24,
+        "mean": 3.8150375939849623
+      },
+      "score": 0.02544502859251062
+    },
+    {
+      "seed": 1337,
+      "variant": 1,
+      "exploredSteps": 120,
+      "selectedStep": 60,
+      "resourceGroups": 1,
+      "connectedResources": 23,
+      "alternatives": 23,
+      "area": 5406,
+      "widths": {
+        "unit": "grid cells",
+        "min": 1,
+        "p10": 1,
+        "median": 3,
+        "p90": 8,
+        "max": 27,
+        "mean": 3.827852004110997
+      },
+      "score": 0.02152508762220991
+    }
+  ]
+}
